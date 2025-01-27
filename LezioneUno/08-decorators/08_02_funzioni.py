@@ -2,6 +2,8 @@
 
 def prefisso(function):
     """Un decoratore che aggiunge un prefisso all'output della funzione."""
+    print(dir(function))
+    
     def wrapper():
         print('Prima. ', end='')  # Stampa il prefisso
         function()  # Chiama la funzione originale

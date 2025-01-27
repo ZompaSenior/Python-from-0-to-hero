@@ -15,6 +15,7 @@ voti = {
 # Stampiamo i voti in modo carino
 print("Voti degli studenti:")
 pprint.pprint(voti)
+print(voti)
 
 # Calcoliamo la media dei voti per ogni studente usando la dict comprehension
 medie = {studente: sum(materie.values()) / len(materie) for studente, materie in voti.items()}

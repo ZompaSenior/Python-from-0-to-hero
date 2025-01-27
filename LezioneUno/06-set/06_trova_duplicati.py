@@ -11,7 +11,7 @@ with open("file.txt") as file_testo:
     # Leggiamo il file riga per riga, tenendo traccia del numero di riga
     for numero_riga, riga in enumerate(file_testo, 1):
         if riga.strip() in univoci:  # Controlliamo se la riga è già stata vista
-            print("🚨 Trovato duplicato alla riga", numero_riga)
+            print("Trovato duplicato alla riga", numero_riga)
         else:  # Se la riga è unica, la aggiungiamo al set
             univoci.add(riga.strip())  # Aggiungiamo la riga senza spazi bianchi
 

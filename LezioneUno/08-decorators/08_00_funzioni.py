@@ -18,4 +18,5 @@ print("\nLa funzione:", funzione)
 
 # Stampiamo il nome della funzione
 print("Il nome della funzione pippo è:", pippo.__name__)  # Dovrebbe stampare 'funzione'
+print("La documentazione di pippo è: ", pippo.__doc__)
 
